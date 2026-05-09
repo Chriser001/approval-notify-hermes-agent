@@ -1,0 +1,9 @@
+name: approval-notify
+version: 1.0.0
+description: 审批请求 macOS 通知提醒 — 危险命令审批时弹出系统通知 + 播放提示音
+provides_tools: []
+provides_hooks:
+  - pre_approval_request
+metadata:
+  platforms:
+    - darwin
